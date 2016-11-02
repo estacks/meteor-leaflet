@@ -1,15 +1,15 @@
 Package.describe({
-  name: "bevanhunt:leaflet",
-  summary: "leaflet - mobile-friendly maps.",
-  git: "https://github.com/bevanhunt/meteor-leaflet.git",
-  author: "Bevan Hunt <bevan@bevanhunt.com> (http://bevanhunt.com)",
+  name: "estacks:leaflet",
+  summary: "AtmosphereJS wrapper for Leaflet.",
+  git: "https://github.com/estacks/meteor-leaflet.git",
+  author: "Eric King <eric@king.rocks>",
   version: "3.0.1",
   license: "MIT"
 });
 
 Npm.depends({
   "spin.js": "2.3.2",
-  "leaflet": "1.0.0",
+  "leaflet": "1.0.1",
   "leaflet-providers": "1.1.15"
 });
 
