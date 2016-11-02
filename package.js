@@ -16,17 +16,17 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom('1.2');
   api.addFiles([
-    '.npm/package/node_modules/leaflet/dist/leaflet-src.js',
+    '.npm/package/node_modules/leaflet/src/Leaflet.js',
     '.npm/package/node_modules/leaflet-providers/leaflet-providers.js',
     '.npm/package/node_modules/spin.js/spin.js',
     'lib/leaflet_spin.js',
     'styles/leaflet.css',
   ], 'client');
   api.addAssets([
-    'images/layers-2x.png',
-    'images/layers.png',
-    'images/marker-icon-2x.png',
-    'images/marker-icon.png',
-    'images/marker-shadow.png'
+    'styles/images/layers-2x.png',
+    'styles/images/layers.png',
+    'styles/images/marker-icon-2x.png',
+    'styles/images/marker-icon.png',
+    'styles/images/marker-shadow.png'
   ],'client');
 });
