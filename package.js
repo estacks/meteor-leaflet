@@ -3,7 +3,7 @@ Package.describe({
   summary: "AtmosphereJS wrapper for Leaflet.",
   git: "https://github.com/estacks/meteor-leaflet.git",
   author: "Eric King <eric@king.rocks>",
-  version: "3.0.1",
+  version: "3.0.1_1",
   license: "MIT"
 });
 
@@ -16,7 +16,7 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom('1.2');
   api.addFiles([
-    '.npm/package/node_modules/leaflet/src/Leaflet.js',
+    '.npm/package/node_modules/leaflet/src/leaflet-src.js',
     '.npm/package/node_modules/leaflet-providers/leaflet-providers.js',
     '.npm/package/node_modules/spin.js/spin.js',
     'lib/leaflet_spin.js',
